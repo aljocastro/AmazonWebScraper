@@ -55,8 +55,7 @@ It uses BeautifulSoup and Requests to scrape live product data, logs each check 
  import datetime  
  import smtplib  
  import csv
-```
-```
+
  #Make the request and parse HTML
  def check_price():  
     URL = 'https://www.amazon.com/Apple-2023-MacBook-Laptop-chip/dp/B0C7638G25?th=1'  
@@ -64,8 +63,7 @@ It uses BeautifulSoup and Requests to scrape live product data, logs each check 
     page = requests.get(URL, headers=headers)  
     soup1 = BeautifulSoup(page.content, "html.parser")  
     soup2 = BeautifulSoup(soup1.prettify(), "html.parser")  
-```
-```
+
   #Extract, Transform and Load the data  
   title = soup2.find(id='productTitle').get_text()  
   price = soup2.find(id='priceblock_ourprice').get_text()
@@ -79,14 +77,12 @@ It uses BeautifulSoup and Requests to scrape live product data, logs each check 
   with open('AmazonWebScraperDataset.csv', 'a+', newline='', encoding='UTF8') as f:  
      writer = csv.writer(f)  
      writer.writerow(data)
-``` 
-```
+
  #Run scheduled procedure (every 24 hours)
  while(True):
      check_price()
      time.sleep(86400)
-``` 
-```
+
  #Script for notification alert (smtplib)
  def send_mail():
      server = smtplib.SMTP_SSL('smtp.gmail.com',465)
