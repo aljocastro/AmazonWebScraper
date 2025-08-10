@@ -20,7 +20,7 @@ It uses BeautifulSoup and Requests to scrape live product data, logs each check 
 📧 Email Alerts – Notifies you instantly when the price drops below your desired limit.  
 🛠 Tech Stack – Python, BeautifulSoup, Requests, smtplib.
 
-Flowchart:                                                                                  
+<u>Flowchart:</u>                                                                                  
                                                                                    
                                     Start Price Tracker
                                              ▼
