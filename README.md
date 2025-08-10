@@ -20,12 +20,7 @@ Key Highlights:
 📧 Email Alerts – Notifies you instantly when the price drops below your desired limit.  
 🛠 Tech Stack – Python, BeautifulSoup, Requests, smtplib.
 
-Flowchart:
-    
-
-  Start Price Tracker      ─▶ Send GET request to Amazon product page  ─▶  Parse HTML with BeautifulSoup  ─▶   Extract title & price 
-
-                                                                                   
+Flowchart:                                                                                  
                                                                                    
                                     Start Price Tracker
                                              ▼
