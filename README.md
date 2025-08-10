@@ -109,6 +109,6 @@ It uses BeautifulSoup and Requests to scrape live product data, logs each check 
 | Apple 2023 MacBook Laptop with M2 chip | 1099.00 | 2023-07-22 |     
 ```
        
-![Alt text](MAC2023.png)
+![Line Chart](MAC2023.png)
 
 
