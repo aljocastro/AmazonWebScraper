@@ -97,7 +97,7 @@ It uses BeautifulSoup and Requests to scrape live product data, logs each check 
 ```
 
 ## 🖼️ Data Results
-                                                                     
+```Data Table                                                                     
 | Title                                  | Price   | Date       |  
 | -------------------------------------- | ------- | ---------- |  
 | Apple 2023 MacBook Laptop with M2 chip | 1199.00 | 2023-05-04 |  
