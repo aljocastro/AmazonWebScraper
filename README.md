@@ -97,15 +97,15 @@ It uses BeautifulSoup and Requests to scrape live product data, logs each check 
 ```
 
 ## 🖼️ Data Results
-| Title                                  | Price   | Date       |
-| -------------------------------------- | ------- | ---------- |
-| Apple 2023 MacBook Laptop with M2 chip | 1199.00 | 2023-05-04 |
-| Apple 2023 MacBook Laptop with M2 chip | 1199.00 | 2023-01-05 |
-| Apple 2023 MacBook Laptop with M2 chip | 1199.00 | 2023-01-06 |
-| Apple 2023 MacBook Laptop with M2 chip | 1199.00 | 2023-01-07 |
-| Apple 2023 MacBook Laptop with M2 chip | 1199.00 | 2023-01-08 |
-| ...                                    | ...     | ...        |
-| Apple 2023 MacBook Laptop with M2 chip | 1099.00 | 2023-07-22 |
+| Title                                  | Price   | Date       |  
+| -------------------------------------- | ------- | ---------- |  
+| Apple 2023 MacBook Laptop with M2 chip | 1199.00 | 2023-05-04 |  
+| Apple 2023 MacBook Laptop with M2 chip | 1199.00 | 2023-01-05 |  
+| Apple 2023 MacBook Laptop with M2 chip | 1199.00 | 2023-01-06 |  
+| Apple 2023 MacBook Laptop with M2 chip | 1199.00 | 2023-01-07 |  
+| Apple 2023 MacBook Laptop with M2 chip | 1199.00 | 2023-01-08 |  
+| ...                                    | ...     | ...        |  
+| Apple 2023 MacBook Laptop with M2 chip | 1099.00 | 2023-07-22 |  
 
 ![Alt text](MAC2023.png)
 
