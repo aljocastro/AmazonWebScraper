@@ -7,8 +7,8 @@ In this project, I built a Python-based Amazon price tracker that automatically 
   * Functionality: Web scraping, data extraction, data analysis.
   * Goal: Amazon Price Tracker to automate the process of tracking price drops for specific products.
   * Write-up: The complete walkthrough and code are published here
-
-
+  
+  
 ## Result: Amazon Price Tracker
 This Amazon Price Tracker is a Python automation tool that monitors Amazon product prices and sends an email alert when the price drops below a defined threshold.
 It uses BeautifulSoup and Requests to scrape live product data, logs each check with a timestamp for historical tracking, and leverages smtplib to deliver instant notifications.
