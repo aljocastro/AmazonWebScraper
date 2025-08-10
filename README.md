@@ -33,9 +33,11 @@ Flowchart:
                                              ▼
                                Parse HTML with BeautifulSoup 
                                              ▼
-                               Parse HTML with BeautifulSoup 
+                            Extract, Clean and Transform the data 
                                              ▼
-                                   Extract title & price
+                                     Load into CSV file 
+                                             ▼
+                                     Price < Threshold?
                                        ┌─────┴─────┐
                                       Yes          No
                                        ▼           ▼
@@ -44,35 +46,4 @@ Flowchart:
                               │ Alert      │   │ (Scheduled Check)   │
                               └────────────┘   └─────────────────────┘
 
- ┌─────────────────────────┐
- │  Start Price Tracker    │
- └──────────┬──────────────┘
-            │
-            ▼
- ┌─────────────────────────┐
- │  Send GET request to    │
- │  Amazon product page    │
- └──────────┬──────────────┘
-            │
-            ▼
- ┌─────────────────────────┐
- │  Parse HTML with        │
- │  BeautifulSoup          │
- └──────────┬──────────────┘
-            │
-            ▼
- ┌─────────────────────────┐
- │  Extract title & price  │
- └──────────┬──────────────┘
-            │
-    Price < Threshold?
-      ┌─────┴─────┐
-      │           │
-     Yes         No
-      │           │
-      ▼           ▼
-┌────────────┐   ┌─────────────────────┐
-│ Send Email │   │ Wait & Run Again    │
-│ Alert      │   │ (Scheduled Check)   │
-└────────────┘   └─────────────────────┘
-
+ 
