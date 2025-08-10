@@ -27,7 +27,9 @@ Flowchart:
 
                                                                                    
                                                                                    
-                                     Price < Threshold?
+                                     Start Price Tracker
+                                             ▼
+                                    Price < Threshold?
                                        ┌─────┴─────┐
                                       Yes          No
                                        ▼           ▼
