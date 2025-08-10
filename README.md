@@ -27,9 +27,15 @@ Flowchart:
 
                                                                                    
                                                                                    
-                                     Start Price Tracker
+                                    Start Price Tracker
                                              ▼
-                                    Price < Threshold?
+                           Send GET request to Amazon product page
+                                             ▼
+                               Parse HTML with BeautifulSoup 
+                                             ▼
+                               Parse HTML with BeautifulSoup 
+                                             ▼
+                                   Extract title & price
                                        ┌─────┴─────┐
                                       Yes          No
                                        ▼           ▼
