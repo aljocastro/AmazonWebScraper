@@ -22,10 +22,9 @@ Key Highlights:
 
 Flowchart:
     
-┌─────────────────────────┐   ┌─────────────────────┐   ┌──────────────────┐    ┌─────────────────────────┐
-│  Start Price Tracker      ─▶ Send GET request to   ─▶  Parse HTML with    ─▶   Extract title & price  │
-└─────────────────────────┘     Amazon product page        BeautifulSoup        └───────────┬─────────────┘
-                              └─────────────────────┘   └──────────────────┘                ▼
+
+  Start Price Tracker      ─▶ Send GET request to Amazon product page  ─▶  Parse HTML with BeautifulSoup  ─▶   Extract title & price 
+
                                                                                    Price < Threshold?
                                                                                       ┌─────┴─────┐
                                                                                      Yes          No
