@@ -43,4 +43,6 @@ It uses BeautifulSoup and Requests to scrape live product data, logs each check 
                               │ Alert      │   │ (Scheduled Check)   │
                               └────────────┘   └─────────────────────┘
 
+
+<ins>Write-up:</ins>
  
