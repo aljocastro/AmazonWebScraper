@@ -35,7 +35,9 @@ Flowchart:
                                              ▼
                             Extract, Clean and Transform the data 
                                              ▼
-                                     Load into CSV file 
+                               Load and append into a CSV file 
+                                             ▼
+                         Create a scheduled automated ETL procedure
                                              ▼
                                      Price < Threshold?
                                        ┌─────┴─────┐
