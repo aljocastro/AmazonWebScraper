@@ -1,7 +1,7 @@
 # [Amazon Web Scraper Using Python](https://aljocastro.github.io/AmazonWebScraper/)
 
 ## 📊 Project Overview
-In this project, I built a Python-based Amazon price tracker that automatically monitors a product’s price. Using BeautifulSoup and Requests, the scraper connects to an specific web page, retrieves key details, cleans and structures the data. The script can run at scheduled intervals, making it a simple yet effective automation tool.
+Python-based Amazon price tracker that automatically monitors a product’s price. Using BeautifulSoup and Requests, the scraper connects to an specific web page, retrieves key details, cleans and structures the data. The script can run at scheduled intervals, making it a simple yet effective automation tool.
 
   * Data Source: Amazon product pages.
   * Libraries Used: BeautifulSoup, Requests.
